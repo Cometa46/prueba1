@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EComercio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="Estilos.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</head>
+<body class="body">
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand titulos" href="#">e-Commerce</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html" style="color: #fff;">Inicio</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle titulos" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"">
+                  Menu
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="Formulario.html" target="_blank">Registrarse</a></li>
+                  <li><a class="dropdown-item" href="FormularioMaestro.html" target="_blank">Formulario Maestro</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Ir</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    <div class="container-fluid">
+        <h1>Los mejores productos para ti </h1>
+        <!--Carusel bkn-->
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/Cafetera7.jpg" class="d-block w-100 responsive" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Prensa francesa</h5>
+                  <p>Esta prensa se utiliza para hacer cafe y tiene un valor de 20.000 pesos</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="img/Cafetera5.jpg" class="d-block w-100 responsive" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Cafetera italiana</h5>
+                  <p>La cafetera italiana es un producto clasico para hacer cafe y tiene un valorde 30.000 pesos</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="img/Cafetera6.jpg" class="d-block w-100 responsive" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Cafetera Pro</h5>
+                  <p>Esta maquina para hacer cafe viene totalmente equipada de manera profesional y cuenta con un valor de 159.990 pesos</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <h1>Lo mas vendido</h1>    
+      <!--GALERIA-->
+    </div>
+    <div class="album py-5">
+      <div class="container">
+  
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+          <div class="col">
+            <div class="card shadow-sm">
+              <div class="ajusteimag">
+              <img src="img/teclado.jpg">
+              </div>
+              <div class="card-body">
+                <p class="card-text">Teclado Gamer perfecto para horas intensas de gaming</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
+                  </div>
+                  <small class="text-body-secondary">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <div class="ajusteimag">
+                <img src="img/Mouse.jpg">
+              </div>
+              <div class="card-body">
+                <p class="card-text">Mouse gamer de marca razer perfecto para gaming y con un dpi increible</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
+                  </div>
+                  <small class="text-body-secondary">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <div class="ajusteimag">
+                <img src="img/auriculares.jpg">
+              </div>
+              <div class="card-body">
+                <p class="card-text">Auriculares perfectos para gaming, desde moviles hasta pc</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
+                  </div>
+                  <small class="text-body-secondary">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col">
+            <div class="card shadow-sm">
+              <div class="ajusteimag">
+                <img src="img/microfono.jpg">
+              </div>
+              <div class="card-body">
+                <p class="card-text">Con este microfono nadie se perdera ninguna palabra tuya</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
+                  </div>
+                  <small class="text-body-secondary">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <div class="ajusteimag">
+                <img src="img/alfombrilla.jpg">
+              </div>
+              <div class="card-body">
+                <p class="card-text">Alfombrilla de nilon con mejor arrastre perfecto para tu mouse</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
+                  </div>
+                  <small class="text-body-secondary">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <div class="ajusteimag">
+                <img src="img/tarjetasonido.jpg">
+              </div>
+              <div class="card-body">
+                <p class="card-text">Tarjeta de sonido perfecta para controlar cada detalle de tu audio</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
+                  </div>
+                  <small class="text-body-secondary">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col">
+            <div class="card shadow-sm">
+              <div class="ajusteimag">
+                <img src="img/tarro.jpg">
+              </div>
+              <div class="card-body">
+                <p class="card-text">Torre perfecta para empezar a armar tu poderoso pc gamer</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
+                  </div>
+                  <small class="text-body-secondary">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <div class="ajusteimag">
+                <img src="img/consolaportatil.jpg">
+              </div>
+              <div class="card-body">
+                <p class="card-text">Consola portatil perfecta para viajes y no te quieras perder ningun juego</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
+                  </div>
+                  <small class="text-body-secondary">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <div class="ajusteimag">
+                <img src="img/sillagamer.jpg">
+              </div>
+              <div class="card-body">
+                <p class="card-text">Comodidad maxima con esta increible silla gamer perfecta para ti</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
+                  </div>
+                  <small class="text-body-secondary">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+</body>
+</html>

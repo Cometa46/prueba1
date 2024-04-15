@@ -1,0 +1,31 @@
+.responsive {
+    width: auto;
+    max-height: 750px;
+    height: 100%;
+    background-size: cover;
+  }
+
+body {
+    background-image: linear-gradient(#222930,rgb(37, 41, 77), #222930);
+    color: #fff;
+
+}
+
+.titulos {
+
+    color: white;
+}
+
+.ajusteimag {
+    height: 250px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ajusteimag img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin: auto;
+}
